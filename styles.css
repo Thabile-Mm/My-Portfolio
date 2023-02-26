@@ -342,7 +342,7 @@ body {
 }
 
 .services-list .lang {
-    flex-basis: 55%;
+    flex-basis: 40%;
 }
 .services-list .lang h2{
     font-size: 25px;
