@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> My Personal Portfolio Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+<!-----------------------------------Header--------------------------------------------->
+        <div id="header">
+            <div class="container">
+                <nav class="navbar">
+                    <h1 class="logo">Thab<span>ile.</span></h1>
+                    <ul>
+                            <li><a href="#header"> Home </a></li>
+                            <li><a href="#about"> About </a></li>  
+                            <li><a href="#services"> Skills </a></li>
+                            <li><a href="#project"> Project </a></li>
+                            <li><a href="#contacts"> Contacts </a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p> <span>Hello</span>, my name is</p>
+                    <h1>Thabile Mmala</h1> 
+                    <p class="header-text2">And i'm a <span>Software  Developer</span></p>
+                    <div class="button">
+                        <button type="button">Hire me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------------------------------About--------------------------------------------->
+        <div id="about">
+            <h1 class="sub-title"> About Me</h1>
+            <div class="container">  
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/IMG-20201115-WA0027.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        
+                        <p>Thabile, is a young passionate, hardworking female who is always
+                            looking forward to new adventures from book-learning to experiental learning.
+                            I am so dedicated and a problem solver with good interpersonal skills.
+                            A girl with vision, determination and above all faith, that all can
+                            be archieved through determination. I am a team player, with an eye open.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                            <p class="tab-links" onclick="opentab('education')" >Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br>Hypertext Markup Language</li>
+                                <li><span>CSS</span><br> Cascading Style Sheets</li>
+                                <li><span>MySQL&PL/SQL</span><br> Structural Query Language
+                                Procedural Language, Structural Query Language</li>
+                                <li><span>C++</span></li>
+                                <li><span>JAVA</span></li>
+                                <li><span>JavaScript</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022- Current</span></li>
+                                    <li>Intership at Fidelity-ADT</li>
+                                    <li> System Testing</li>
+                                    <li> Analysing Business Requirement Document</li>
+                                    <li> Testing CRM (Transformer system)</li>
+                                    <li> Testing Methodology: Waterfall</li>
+                                    <li> Bug Tracking - Orange-scrum</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2013 - 2017 </span>
+                                    <br>Leolo High School
+                                    <br> National Diploma
+                                </li>
+                                <li><span>2018</span><br> Upgrade at Mmiditsi Secondary School</li>
+                                <li><span>2019 - 2022</span>
+                                    <br> Diploma at Tshwane University of Technology
+                                    <br> Diploma in Information Technology, Software Development
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+<!-----------------------------------skills and projects--------------------------------------------->
+        <div id="services">
+            <h1 class="sub-title">My Skills and Projects</h1>
+            <div class="container">
+                
+                <div class="services-list">
+                    <div class="know">
+                        <i class="fas fa-crop-alt"></i>
+                        <p>I have experience in System Testing. I am
+                            Testing Customer Relationship Management 
+                            (CRM), using Orange-Scrum Tool.
+                            <br>
+                            Self tought skills: HTML, CSS, JavaScript, and JAVA Languages.
+                            <br>
+                            <br>
+                            My Projects:
+                            <br>
+                            <br>
+                            Created Login page, using HTML and CSS. 
+                            <br>
+                            Created bill calculator using HTML, CSS, and JavaScript.
+                            <br>
+                            And I am creating my Portfolio, using HTML, CSS, and 
+                            JavaScript.
+                            <br>
+                            
+                        </p>
+                    </div>
+                    <div class="lang">
+                        
+                        <h2>Software Developer</h2>
+                        <p>The Languages i know<span>:</span></p>
+                        <div class="skill">
+                            <div class="bars">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="line ht"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>JAVA</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="line java"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>MySQL/PLSQL</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="line sql"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>C++</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="line c"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="line script"></div>
+                            </div>
+                        </div>          
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+<!------------------------Contacts---------------------------->
+        <div id="contacts">
+            <h1 class="sub-title">Contact me</h1>
+            <div class="container">
+                <div class="columnleft">
+                    <h2>Get in touch</h2>
+                    <div class="icons">
+                        <div class="rows">
+                            <i class="fas fa-user"></i>
+                            <div class="inform">
+                                <div class="head">Name</div>
+                                <div class="subhead">Thabile Mmala</div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="inform">
+                                <div class="head">Address</div>
+                                <div class="subhead">Allendale Viev, Midrand, 1685</div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <i class="fas fa-envelope"></i>
+                            <div class="inform">
+                                <div class="head">Email</div>
+                                <div class="subhead">octoviathabile@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columnright">
+                    <h2>Message me</h2>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            
+                        </div>
+                        <div class="fieldsub">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+<!--------------------------------------------footer---------------------------->
+        <footer>
+            <span>Created By <a href="#">CodingThabie</a> | <span class="far fa-copyright"></span> 2023 All right reserved</span>
+        </footer>
+        <script src="script.js"></script>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+
+            }
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
