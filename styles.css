@@ -162,8 +162,8 @@ body {
     position: relative;
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 #about .sub-title::before{
     content: " ";
@@ -191,16 +191,16 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .about-col-1 {
     flex-basis: 35%;
-    padding-top: 40px;
 }
 
 .about-col-1 img { 
-    width: 400px;
-    height: 400px;
+    width: 460px;
+    height: 460px;
     object-fit: cover;
     border-radius: 15px;
     border-color: rgb(180, 180, 51);
@@ -208,9 +208,8 @@ body {
 }
 
 .about-col-2 {
-    flex-basis: 60%;
-    padding-top: 40px;
-    font-size: 17px;
+    flex-basis: 65%;
+    font-size: 15px;
     line-height: 20px;
 }
 
@@ -395,19 +394,19 @@ body {
 }
 .skill .bars .css::before{
     background: rgba(173, 4, 60, 0.993);
-    width: 80%;
+    width: 75%;
 }
 .skill .bars .java::before{
     background: rgba(173, 4, 60, 0.993);
-    width: 50%;
+    width: 70%;
 }
 .skill .bars .sql::before{
     background: rgba(173, 4, 60, 0.993);
-    width: 92%;
+    width: 90%;
 }
 .skill .bars .c::before{
     background: rgba(173, 4, 60, 0.993);
-    width: 85%;
+    width: 80%;
 }
 .skill .bars .script::before{
     background: rgba(173, 4, 60, 0.993);
